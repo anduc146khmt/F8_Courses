@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading {
+    padding: 50px 0;
+    text-align: center;
+}
+.courseBlock {
+    width: 95%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+.courseImage {
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+.courseImage:hover {
+    opacity: 0.8;
+}
+.title {
+   padding: 10px 0;
+}
+.student {
+    display: inline-block;
+    padding: 10px 0;
+    margin-left: 5px;
+}
+.description {
+    padding: 10px 0;
+    font-weight: bold;
+}
